@@ -2,19 +2,17 @@
 
 /**
  * print_alphabet - Entry point
- * Return:0
+ *
+ * Return: Always 0 (Success)
  */
-
 void print_alphabet(void)
 {
-	char c = 'a';
+	int x = 97;
 
-	while (c <= 'z')
+	while (x <= 122)
 	{
-		_putchar(c);
-		c++;
-
+		_putchar(x);
+		x++;
 	}
 	_putchar('\n');
-
 }

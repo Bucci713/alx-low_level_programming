@@ -1,25 +1,23 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints alphabet 10 times
- * Return:void
+ * print_alphabet_x10 - Entry point.
+ *
+ * Return: Always 0.
  */
-
 void print_alphabet_x10(void)
 {
-	char c;
-	int i = 0;
+	int x = 0, y;
 
-	while (i < 10)
+	while (x < 10)
 	{
-		c = 'a';
-		while (c <= 'z')
+		y = 97;
+		while (y <= 122)
 		{
-			_putchar(c);
-			c++;
+			_putchar(y);
+			y++;
 		}
 		_putchar('\n');
-		i++;
+		x++;
 	}
-
 }

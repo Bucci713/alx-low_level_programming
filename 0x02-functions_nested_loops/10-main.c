@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -5,9 +6,11 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
-	printf("_putchar\n");
+	int n;
+
+	n = add(89, 9);
+	printf("%d\n", n);
 	return (0);
 }
